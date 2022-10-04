@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message PlatformModel {
+  int32 id = 1;
+  string name = 2;
+  string publisher = 3;
+}
+
+service PlatformsService {
+  rpc GetAllPlatforms(PlatformRequest) returns (PlatformResponse);
+}
+
+message PlatformRequest {
+}
+
+message PlatformResponse {
+  repeated PlatformModel platforms = 1;
+}
+
+

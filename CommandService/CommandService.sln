@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandService", "CommandService.csproj", "{A64E4F22-FBB0-443B-9C2C-8A5304097926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A64E4F22-FBB0-443B-9C2C-8A5304097926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64E4F22-FBB0-443B-9C2C-8A5304097926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64E4F22-FBB0-443B-9C2C-8A5304097926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64E4F22-FBB0-443B-9C2C-8A5304097926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B7453B1-0586-404F-A2AC-C44159C8F398}
+	EndGlobalSection
+EndGlobal
